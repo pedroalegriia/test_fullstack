@@ -56,3 +56,38 @@ npm start
 
 
 Verificar que Todo Funcione Correctamente
+
+
+
+
+### 2. Frontend (⁠ frontend/ ⁠)
+
+#### Paso 1: Clonar el repositorio
+
+Si aún no has clonado el repositorio:
+ ⁠
+Ve al directorio 
+
+cd nombre_del_repositorio
+
+Instala las dependencias necesarias
+⁠ bash
+npm install
+o
+yarn install
+ ⁠
+
+Genera un archivo .env donde se guardaran las variables del proyecto
+
+REACT_APP_API_URL es la url del backend
+por default el backend corre en en http://localhost:5001/api
+
+⁠ bash
+
+REACT_APP_API_URL=
+ 
+ejecutar el proyecto
+
+npm start
+
+Verificar que Todo Funcione Correctamente
