@@ -1,0 +1,15 @@
+# Ignorar las dependencias de Node.js
+/node_modules
+
+# Ignorar el archivo de variables de entorno
+/.env
+
+# Ignorar los archivos de logs
+*.log
+
+# Ignorar las carpetas de construcción (si existiesen)
+/dist
+/build
+
+# Ignorar el archivo de configuración de dependencias de IDE (como Visual Studio Code)
+.vscode/
