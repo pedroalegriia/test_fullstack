@@ -1,4 +1,4 @@
-# Full Stack Pokemon Trainer App
+# Full Stack Pokemon
 
 Este proyecto es una aplicación completa de backend y frontend para gestionar entrenadores y Pokémon. El backend está desarrollado con *Node.js, mientras que el frontend está desarrollado con **React*.
 
