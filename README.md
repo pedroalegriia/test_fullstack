@@ -24,36 +24,41 @@ Antes de ejecutar este proyecto, asegúrate de tener instalado:
 
 Si aún no has clonado el repositorio:
 
-⁠ bash
+```
 git clone <URL_DEL_REPOSITORIO>
+```
  ⁠
 Ve al directorio 
 
+```
 cd nombre_del_repositorio
-
+```
 Instala las dependencias necesarias
-⁠ bash
+
+```
 npm install
 o
 yarn install
- ⁠
+```
 
 Genera un archivo .env donde se guardaran las variables del proyecto
 
 MONGO_URI es la dirección de la base de datos
 MONGO_DB_NAME es el nombre de la base de datos
-⁠ bash
+⁠
+```
 MONGO_URI
 MONGO_DB_NAME
 EXTERNAL_API_URL_POKEMON=https://pokeapi.co/api/v2
- ⁠
 
+```
 Iniciar MongoDB o instalarlo y levantar el servicio
 
 ejecutar el proyecto
 
+```
 npm start
-
+```
 
 Verificar que Todo Funcione Correctamente
 
@@ -62,32 +67,31 @@ Verificar que Todo Funcione Correctamente
 
 ### 2. Frontend (⁠ frontend/ ⁠)
 
-#### Paso 1: Clonar el repositorio
+#### Paso 1: Ve al directorio 
 
-Si aún no has clonado el repositorio:
- ⁠
-Ve al directorio 
-
+```
 cd nombre_del_repositorio
+```
 
 Instala las dependencias necesarias
-⁠ bash
+
+```
 npm install
-o
+    o
 yarn install
- ⁠
+```
 
 Genera un archivo .env donde se guardaran las variables del proyecto
 
 REACT_APP_API_URL es la url del backend
 por default el backend corre en en http://localhost:5001/api
 
-⁠ bash
-
+```
 REACT_APP_API_URL=
- 
+```
 ejecutar el proyecto
 
+```
 npm start
-
+```
 Verificar que Todo Funcione Correctamente
